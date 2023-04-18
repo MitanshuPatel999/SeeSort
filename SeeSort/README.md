@@ -1,0 +1,8 @@
+# **SeeSort - Visualize The Sorting Algorithms**
+SeeSort is a web application designed to display the sorting processes of various sorting algorithms like bubble sort, selection sort, insertion sort, quick sort and merge sort with the help of visual elements such as bars and animations. The purpose of SeeSort is to help users understand how sorting algorithms works by displaying step-by-step process of sorting a list of numbers.
+
+SeeSort displays the unsorted list and updates the display in real-time to show the progress of sorting at each step until the list is sorted. The display can include visual elements such as bars representing the numbers being sorted, with their height proportional to their value, which move as the sorting progresses. SeeSort allows users to select input size of list of numbers which can be varied, users have to select any one type of sorting algorithm for processing input list of numbers. During visualization user can control sorting speed and can also pause sorting algorithm anytime for 10s for the better understanding of intermediate sorting steps.
+
+This visualizer can be a useful tool for anyone interested in learning about sorting algorithms or for those who want to visualize how these algorithms work in practice. The user-friendly interface and customization options make it accessible to a wide range of users, regardless of their level of expertise. The sorting algorithm visualizer can help users gain a deeper understanding of sorting algorithms and their applications.
+
+![SeeSort_LiveImage](https://user-images.githubusercontent.com/95534153/232897417-dde541c2-11e5-47c7-b4a5-ef221783574b.png)

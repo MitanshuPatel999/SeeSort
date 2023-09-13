@@ -90,16 +90,17 @@ function createNewArray(noOfBars = 20) {
 
     // creating an array of random numbers 
     array = [];
-    for (let i = 0; i < noOfBars; i++) {
-        array.push(Math.floor(Math.random() * 250) + 1);
-    }
-    console.log(array);
-
+    // for (let i = 0; i < noOfBars; i++) {
+    //     array.push(Math.floor(Math.random() * 250) + 1);
+    // }
+    // console.log(array);
+    array = document.getElementById('arrInput').value.split(',');
+    console.log(document.getElementById('arrInput').value);
     // select the div #bars element
     const bars = document.querySelector("#bars");
 
     // create multiple element div using loop and adding class 'bar col'
-    for (let i = 0; i < noOfBars; i++) {
+    for (let i = 0; i < array.length; i++) {
         const bar = document.createElement("div");
         bar.style.height = `${array[i]*1.5}px`;
         label=document.createElement('label');
